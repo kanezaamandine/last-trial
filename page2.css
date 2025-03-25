@@ -1,0 +1,144 @@
+body{
+    background-color: #1c1c1c;
+    padding-left: 5em;
+    font-size: 1.5em;
+    font-family:"lucida grande",tahoma,verdana,arial,sans
+}
+#pic{
+    border-radius: 20em;
+    border:solid  rgba(255, 255, 0, 0.705) 0.2em;
+    
+}
+.big{
+    width: 70%;
+    margin-left: 12.9em;
+    text-align: center;
+}
+.sub{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-top: 3em;
+    text-align: center;
+    margin-left: 5em;
+}
+span{
+    text-transform: capitalize;
+    font-weight: 450;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 1.5em;
+    color: white;
+
+}
+#me{
+    padding-top: 0em;
+    margin-top: 0.001em;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 0.7em;
+    color: white;
+
+}
+
+.parags{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 0.7em;
+    margin-left: 8em;
+    color: white;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left:  5.5em; 
+    padding-top: 1em;
+}
+
+.no{
+    padding-left: 2em;
+    font-size: 0.7em;
+}
+#one{
+    background-color: yellow;
+    color: black;
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+    margin-right: 3em;
+}
+#two{
+    background-color:black;
+    color: rgb(245, 245, 245);
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+    padding-left: 0em;
+    text-align: center;
+}
+.bigbutton{
+    margin-top: 2%;
+    width: 17em;
+    height: 2em;
+    background-color:rgba(128, 128, 128, 0.394);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    margin-left: 3em;
+}
+.bigbutton a{
+    text-decoration: none;
+    color:white;
+}
+.bigbutton button{
+    width: 40%;
+    border: none;
+} 
+#port{
+    background-color:black ;
+    margin-left:0.5em;
+    height: 3em;
+    margin-top: 0.3em;
+    width: 13em;
+    border-radius: 0.3em;
+}
+#skill{
+    background-color: rgba(128, 128, 128, 0.394);
+    margin-right:0.5em;
+    height: 3em;
+    margin-top: 0.3em;
+    width: 13em;
+    border-radius: 0.3em;
+}
+.images1 ,.images2, .images3{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    width:17em;
+    margin-left: 3em;
+}
+.exception{
+    padding-left:5em ;
+}
+.big{
+    padding-left:5em ;
+}
+img{
+    border-radius: 1em;
+}
+footer{
+    text-align: center;
+    margin-top: 2%;
+    padding:1em 6em 0 0;
+    font-size: 0.5em;
+    font-family:"lucida grande",tahoma,verdana,arial,sans;
+    color: white;
+}
+#setting{
+    padding-right: 19em;
+    color: white;
+}
